@@ -1,4 +1,9 @@
 <app-search> </app-search>
+<app-tags></app-tags>
+<app-not-found
+[visible]="!foods || !foods.length"
+resetLinkText="Reset Search"
+></app-not-found>
 <ul>
   <li *ngFor="let food of foods">
     <a routerLink="/food/{{food.id}}">
@@ -14,7 +19,7 @@
            <star-rating
            [value]="food.stars"
            [totalstars]="5"
-           checkedcolor="red"
+           checkedcolor="rgb(25, 98, 3);"
            uncheckedcolor="black"
            size="22px"
            [readonly]="true">

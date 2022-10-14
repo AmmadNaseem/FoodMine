@@ -1,0 +1,29 @@
+.container{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffffea; /*this is white for alpha use ea i.e/ #fffea*/
+  z-index: 10000; /*show loading front of anything*/
+  top: 0;
+  left: 0;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+}
+
+img{
+  border-bottom: 10px solid  rgba(151, 101, 20, 0.937);
+  width: 200px;
+  height: 200px;
+}
+
+h1{
+color:  rgba(151, 101, 20, 0.937);
+text-transform: lowercase;
+}
