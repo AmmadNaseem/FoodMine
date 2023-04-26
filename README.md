@@ -18,6 +18,14 @@ PAYPAL_CLIENT_ID=<your_paypal_client_id>
 
 ## 2. Start the server:
 
+### Frontend 
+bash
+
+ng serve
+
+The server should be running at http://localhost:4200.
+
+### Backend
 bash
 
 npm start
